@@ -1,8 +1,8 @@
 /*
- * Natural Sort algorithm for Javascript - Version 0.8.1 - Released under MIT license
- * Author: Jim Palmer (based on chunking idea from Dave Koelle)
+ * Natural Sort algorithm for JavaScript (ES6) - Version 1.0.0 - Released under MIT license
+ * Author: Eric Weitz (wrapped, minified code by Jim Palmer; chunking idea by Dave Koelle)
  */
-function naturalSort (a, b) {
+export default function naturalSort(a, b) {
     var re = /(^([+\-]?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?(?=\D|\s|$))|^0x[\da-fA-F]+$|\d+)/g,
         sre = /^\s+|\s+$/g,   // trim pre-post whitespace
         snre = /\s+/g,        // normalize all whitespace to single ' ' character

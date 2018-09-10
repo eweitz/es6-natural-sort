@@ -1,0 +1,21 @@
+{
+  "name": "es6-natural-sort",
+  "version": "1.0.0",
+  "description": "Natural sort with ES6 export, less than 0.6 KB gzipped",
+  "main": "naturalSort.min.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eweitz/es6-natural-sort.git"
+  },
+  "keywords": [
+    "es6-export",
+    "es6",
+    "sort"
+  ],
+  "author": "Eric Weitz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eweitz/es6-natural-sort/issues"
+  },
+  "homepage": "https://github.com/eweitz/es6-natural-sort"
+}
